@@ -6,4 +6,6 @@ from sklearn.externals.six import StringIO
 import pandas as pd
 import numpy as np
 data = pd.read_csv("cropDB.csv") 
+def decode(class):
+  
 print(data.head)
