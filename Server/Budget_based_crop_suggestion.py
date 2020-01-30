@@ -11,11 +11,10 @@ def bestcrop(budget):
 		if(i>budget):
 			rem.append(-1)
 		else:
-			rem.append(cos)
+			rem.append(i)
 	op={x:y for y,x in predict.items()}
 	for i in rem:
 		if(i!=-1):
-			print(i)
-			print(op[22810])
+			print(op[i])
 
 bestcrop(10000)
